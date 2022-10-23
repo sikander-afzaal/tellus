@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/img/SouthAmerica.svg')",
+        "learn-wave": "url('/img/blueBG.svg')",
       },
       colors: {
         telluscoopWhite: "#F9F9F9",
