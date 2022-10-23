@@ -31,9 +31,9 @@
 
   <body class="bg-artisanWhite">
     <!-- Top Area Start  -->
-    <section class="relative px-4">
+    <section class="relative">
       <div class="max-w-[1440px] w-full mx-auto">
-        <header class="relative pb-20 pt-6 sm:pb-8">
+        <header class="relative pb-20 pt-6 sm:pb-8 px-4">
           <div class="flex justify-between sm:gap-0 gap-6 items-center">
             <div class="logo">
               <a href="#" class="block">
@@ -50,16 +50,6 @@
               <ul
                 class="flex justify-end items-center gap-10 lg:gap-0 w-full space-x-4 sm:space-x-6 lg:space-x-10"
               >
-                <!-- <li
-                  class="block transition-all hover:-skew-x-3 hover:-rotate-3 hover:bg-telluscoopPink"
-                >
-                  <a
-                    href="https://telluscoop.com/airdrop.html"
-                    target="_blank"
-                    class="font-mono text-sm sm:text-2xl hover:text-telluscoopWhite"
-                    >NO AIRDROP</a
-                  >
-                </li> -->
                 <li
                   class="block transition-all hover:skew-x-3 hover:rotate-3 hover:bg-telluscoopPink"
                 >
@@ -105,8 +95,24 @@
           </div>
         </header>
         <div
-          class="h-[650px] py-5 sm:py-14 lg:py-0 banner bg-hero-pattern bg-no-repeat bg-right-top"
+          class="relative px-4 h-[650px] py-5 sm:py-14 lg:py-0 banner bg-hero-pattern bg-no-repeat bg-right-top"
         >
+          <div class="absolute right-0 bottom-20 block">
+            <span
+              class="absolute inset-0 rounded-tl-[12px] rounded-bl-[24px] bg-black translate-x-0 translate-y-[6px]"
+            ></span>
+            <button
+              class="relative z-10 px-2 w-[100px] sm:w-[117px] h-[80px] sm:h-[97px] rounded-tl-[12px] rounded-bl-[12px] py-3 flex justify-center items-center font-bold uppercase border-4 border-black font-roboto bg-telluscoopPink"
+            >
+              <div
+                class="bg-[#D80027] overflow-hidden relative rounded-full h-[40px] sm:h-[60px] w-[40px] sm:w-[60px]"
+              >
+                <div
+                  class="bg-[#FFDA44] w-full absolute top-1/2 left-0 h-[20px] -translate-y-1/2"
+                ></div>
+              </div>
+            </button>
+          </div>
           <div class="flex justify-start items-center w-full">
             <div
               class="text-center sm:text-left w-full md:py-8 flex justify-center items-center sm:items-start flex-col"
@@ -146,7 +152,7 @@
                 ></span>
               </div>
               <ul
-                class="flex justify-center items-center mt-10 space-x-8 sm:justify-start"
+                class="flex justify-center gap-5 sm:gap-10 items-center mt-10 space-x-8 sm:justify-start"
               >
                 <li>
                   <a
