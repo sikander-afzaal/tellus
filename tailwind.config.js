@@ -10,7 +10,7 @@ module.exports = {
         telluscoopWhite: "#F9F9F9",
         telluscoopPink: "#FF6392",
         telluscoopYellow: "#FFE45E",
-        telluscoopRed: "#E02020",
+        telluscoopRed: "#DD211E",
         telluscoopBlue: "#5AA9E6",
         telluscoopGreen: "#71C666",
         telluscoopDark: "#22333F",
