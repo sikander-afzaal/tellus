@@ -558,8 +558,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
 }
 
-.bottom-20{
-  bottom: 5rem;
+.bottom-\[20\%\]{
+  bottom: 20%;
 }
 
 .top-1\/2{
@@ -570,8 +570,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 0px;
 }
 
-.bottom-0{
-  bottom: 0px;
+.bottom-\[15\%\]{
+  bottom: 15%;
 }
 
 .bottom-full{
@@ -594,32 +594,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 96%;
 }
 
-.bottom-\[20\%\]{
-  bottom: 20%;
-}
-
-.bottom-\[10\%\]{
-  bottom: 10%;
-}
-
-.bottom-\[5\%\]{
-  bottom: 5%;
-}
-
-.bottom-\[30\%\]{
-  bottom: 30%;
-}
-
-.bottom-\[15\%\]{
-  bottom: 15%;
-}
-
-.bottom-\[25\%\]{
-  bottom: 25%;
-}
-
 .isolate{
   isolation: isolate;
+}
+
+.-z-10{
+  z-index: -10;
 }
 
 .z-10{
@@ -634,8 +614,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: -20;
 }
 
-.-z-10{
-  z-index: -10;
+.z-20{
+  z-index: 20;
 }
 
 .m-10{
@@ -665,6 +645,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
+.mb-0{
+  margin-bottom: 0px;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -675,6 +659,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-10{
   margin-top: 2.5rem;
+}
+
+.-mt-10{
+  margin-top: -2.5rem;
 }
 
 .mb-1{
@@ -699,42 +687,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-7{
   margin-top: 1.75rem;
-}
-
-.-mt-16{
-  margin-top: -4rem;
-}
-
-.-mb-20{
-  margin-bottom: -5rem;
-}
-
-.-mb-24{
-  margin-bottom: -6rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
-}
-
-.mt-0{
-  margin-top: 0px;
-}
-
-.-mt-20{
-  margin-top: -5rem;
-}
-
-.-mb-10{
-  margin-bottom: -2.5rem;
-}
-
-.-mb-5{
-  margin-bottom: -1.25rem;
-}
-
-.-mt-10{
-  margin-top: -2.5rem;
 }
 
 .block{
@@ -785,10 +737,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.5rem;
 }
 
-.h-\[650px\]{
-  height: 650px;
-}
-
 .h-\[80px\]{
   height: 80px;
 }
@@ -821,16 +769,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.25rem;
 }
 
-.h-\[auto\]{
-  height: auto;
-}
-
 .min-h-screen{
   min-height: 100vh;
-}
-
-.min-h-\[650px\]{
-  min-height: 650px;
 }
 
 .min-h-\[800px\]{
@@ -1313,14 +1253,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .py-\[90px\]{
@@ -1334,6 +1274,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-6{
   padding-top: 1.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .pt-12{
@@ -1374,18 +1318,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-\[100px\]{
   padding-top: 100px;
-}
-
-.pt-5{
-  padding-top: 1.25rem;
-}
-
-.pb-10{
-  padding-bottom: 2.5rem;
-}
-
-.pb-7{
-  padding-bottom: 1.75rem;
 }
 
 .text-left{
@@ -1631,10 +1563,6 @@ html{
 }
 
 @media (min-width: 640px){
-  .sm\:absolute{
-    position: absolute;
-  }
-
   .sm\:left-7{
     left: 1.75rem;
   }
@@ -1764,13 +1692,12 @@ html{
     padding-bottom: 1rem;
   }
 
-  .sm\:py-14{
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-  }
-
   .sm\:pb-8{
     padding-bottom: 2rem;
+  }
+
+  .sm\:pt-14{
+    padding-top: 3.5rem;
   }
 
   .sm\:pb-\[300px\]{
@@ -1787,10 +1714,6 @@ html{
 
   .sm\:pt-\[82px\]{
     padding-top: 82px;
-  }
-
-  .sm\:pt-14{
-    padding-top: 3.5rem;
   }
 
   .sm\:text-left{
@@ -1861,12 +1784,12 @@ html{
     bottom: 5%;
   }
 
-  .lg\:mr-11{
-    margin-right: 2.75rem;
-  }
-
   .lg\:-mb-24{
     margin-bottom: -6rem;
+  }
+
+  .lg\:mr-11{
+    margin-right: 2.75rem;
   }
 
   .lg\:-mt-16{
@@ -1887,10 +1810,6 @@ html{
 
   .lg\:h-\[550px\]{
     height: 550px;
-  }
-
-  .lg\:min-h-\[800px\]{
-    min-height: 800px;
   }
 
   .lg\:min-h-\[650px\]{
@@ -1951,9 +1870,8 @@ html{
     border-width: 0px;
   }
 
-  .lg\:py-0{
+  .lg\:pt-0{
     padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .lg\:pt-20{
@@ -1966,10 +1884,6 @@ html{
 
   .lg\:pt-\[62px\]{
     padding-top: 62px;
-  }
-
-  .lg\:pt-0{
-    padding-top: 0px;
   }
 
   .lg\:text-5xl{
