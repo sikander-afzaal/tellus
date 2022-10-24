@@ -598,12 +598,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   isolation: isolate;
 }
 
-.-z-10{
-  z-index: -10;
-}
-
 .z-10{
   z-index: 10;
+}
+
+.z-20{
+  z-index: 20;
 }
 
 .z-0{
@@ -614,8 +614,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: -20;
 }
 
-.z-20{
-  z-index: 20;
+.-z-10{
+  z-index: -10;
 }
 
 .m-10{
