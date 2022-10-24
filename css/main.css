@@ -1434,6 +1434,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 70px;
 }
 
+.pt-\[62px\]{
+  padding-top: 62px;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1862,6 +1866,10 @@ html{
     padding-bottom: 150px;
   }
 
+  .sm\:pt-\[82px\]{
+    padding-top: 82px;
+  }
+
   .sm\:text-left{
     text-align: left;
   }
@@ -2015,6 +2023,10 @@ html{
 
   .lg\:pb-\[270px\]{
     padding-bottom: 270px;
+  }
+
+  .lg\:pt-\[62px\]{
+    padding-top: 62px;
   }
 
   .lg\:text-5xl{
